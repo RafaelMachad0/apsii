@@ -34,8 +34,7 @@ public class Funcionario {
     @Override
     public String toString() { double
             liquido = calcularSalario() - calcularDesconto();
-        return String.format( "%s [%s] - Salário: R$ %.2f | Desconto:
-                R$ %.2f | Líquido: R$ %.2f", nome, matricula,
+        return String.format("%s [%s] - Salário: R$ %.2f | Desconto: R$ %.2f | Líquido: R$ %.2f", nome, matricula,
         calcularSalario(), calcularDesconto(), liquido );
     }
 }
